@@ -1,0 +1,59 @@
+body{
+    font-size: 16px;
+    background-color: slategray;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+button{
+    padding: 5px 8px;
+    background: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#header{
+    background-color: red;
+}
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+#navbar li{
+    list-style: none;
+    font-size: 2rem;  
+    padding: 0.5rem 0;  
+}
+#welcome-section{
+    background-color: black;
+    font-size: 2rem;
+    min-height: 100vh;
+}
+#welcome-section div{
+    padding-top:30vh;
+    text-align: center;
+}
+#projects{
+  padding:10px
+}
+#projects li{
+    list-style: none;
+}
+#projects h1{
+    font-size: 3rem;
+    text-align: center;
+}
+footer{
+    background: black;
+    text-align: center;
+    padding: 1rem;
+}
+footer h1{
+    font-size: 2rem;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      font-size:10px ;
+    }
+  }
