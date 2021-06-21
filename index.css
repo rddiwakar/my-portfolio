@@ -5,9 +5,16 @@ body{
     margin: 0;
     padding: 0;
 }
+a:hover{
+    color:blue;
+   
+}
 button{
-    padding: 5px 8px;
+    text-align: center;
+    padding: 1rem 1.5rem;
     background: black;
+    margin: 0 35rem;
+    cursor: pointer;
 }
 a{
     text-decoration: none;
@@ -37,12 +44,23 @@ a{
 #projects{
   padding:10px
 }
+#projects ul{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 #projects li{
     list-style: none;
 }
 #projects h1{
     font-size: 3rem;
     text-align: center;
+}
+#projects img{
+    width:20rem;
+    height: 15rem;
 }
 footer{
     background: black;
@@ -55,5 +73,8 @@ footer h1{
 @media only screen and (max-width: 600px) {
     body {
       font-size:10px ;
+    }
+    button{
+        margin:0 8rem;
     }
   }
